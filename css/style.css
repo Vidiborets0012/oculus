@@ -65,6 +65,7 @@ body {
 
 .header {
   border-bottom: 1px solid #f6f4f5;
+  background-color: #f6f4f5;
 }
 
 .nav {
@@ -102,3 +103,60 @@ body {
   background-color: #000;
   color: #fff;
 } */
+
+.top {
+  min-height: calc(100vh - 81px);
+  background-image: url('../images/top-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+  margin-bottom: 100px;
+}
+
+.top-title {
+  padding-top: 16%;
+  font-size: 96px;
+  margin-bottom: 10px;
+}
+
+.top-subtitle {
+  font-size: 36px;
+  margin-bottom: 5px;
+}
+
+.top-text {
+  font-size: 13px;
+  margin-bottom: 50px;
+}
+
+.buy-btn {
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  background: linear-gradient(180deg, #bc10d8 0%, rgba(80, 0, 250, 0.93) 100%);
+  display: flex;
+  padding: 0;
+  /* padding-top: 21px;
+  padding-bottom: 21px; */
+  padding: 1px;
+  font-weight: 700;
+}
+
+.buy-btn-text {
+  color: #f6f4f5;
+  /* padding-left: 111px;
+  padding-right: 111px; */
+  padding: 20px 110px;
+}
+
+.buy-btn-price {
+  background-color: #f6f4f5;
+  /* padding-left: 106px;
+  padding-right: 106px; */
+  padding: 20px 105px;
+}
+
+.top-buy-text {
+  font-size: 13px;
+  padding-top: 6px;
+}
