@@ -1,0 +1,100 @@
+@font-face {
+  font-family: 'Helvetica', sans-serif;
+  src: url(../fonts/helvetica.woff2);
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Helvetica-Bold', sans-serif;
+  src: url(../fonts/helvetica.woff2);
+  font-style: normal;
+  font-weight: 700;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.container {
+  max-width: 1220px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: 'Helvetica', sans-serif;
+  font-weight: 14;
+  font-size: 16px;
+  line-height: 1.4;
+  color: #5c5c5e;
+}
+
+.header {
+  border-bottom: 1px solid #f6f4f5;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+
+.menu-list {
+  display: flex;
+  gap: 0 20px;
+}
+
+.basket {
+  display: block;
+  position: relative;
+}
+
+/* .basket-on {
+  position: absolute;
+  bottom: -2px;
+  right: -2px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 11px;
+  background-color: #000;
+  color: #fff;
+} */
