@@ -361,3 +361,34 @@ body {
   -webkit-text-fill-color: transparent;
   margin-top: auto;
 }
+
+.buy {
+  margin-bottom: 110px;
+  text-align: center;
+  position: relative;
+}
+
+.buy-img {
+  margin: 0 auto 30px;
+}
+
+.buy .buy-btn {
+  margin: 0 auto;
+}
+
+.buy .buy-btn .buy-btn-price {
+  background-color: #fff;
+}
+
+.buy-bg {
+  font-weight: 700;
+  font-size: 400px;
+  line-height: 400px;
+  background: linear-gradient(180deg, #bc10d8 0%, rgba(80, 0, 250, 0.93) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  opacity: 0.1;
+  position: absolute;
+  z-index: -1;
+}
