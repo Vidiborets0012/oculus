@@ -468,3 +468,73 @@ body {
   right: 0;
   margin: 0 auto;
 }
+
+.accessories {
+  margin-bottom: 100px;
+}
+
+.accessories-title {
+  margin-bottom: 30px;
+}
+
+.accessories-text {
+  font-size: 36px;
+  text-transform: uppercase;
+  background: linear-gradient(180deg, #bc10d8 0%, rgba(80, 0, 250, 0.93) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: uppercase;
+}
+
+.accessories-items {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.accessories-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px 20px 18px;
+  border: 1px solid;
+  border-image: linear-gradient(180deg, #bc10d8 0%, rgba(80, 0, 250, 0.93) 100%) 1;
+}
+
+.accessories-item-img {
+  margin-bottom: 10px;
+}
+
+.accessories-item-title {
+  font-weight: 400;
+  font-size: 24px;
+  color: #070707;
+  margin-bottom: 10px;
+  min-height: 68px;
+}
+
+.accessories-item-text {
+  margin-bottom: 42px;
+  margin-top: auto;
+}
+
+.accessories-item-price {
+  font-weight: 700;
+  color: #070707;
+  line-height: 18px;
+  margin-bottom: 20px;
+  margin-top: auto;
+}
+
+.accessories-item-btn {
+  padding: 6px;
+  font-weight: 700;
+  background: linear-gradient(180deg, #bc10d8 0%, rgba(80, 0, 250, 0.93) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  width: 100%;
+  border: 1px solid;
+  border-image: linear-gradient(180deg, #bc10d8 0%, rgba(80, 0, 250, 0.93) 100%) 1;
+}
