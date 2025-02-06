@@ -439,3 +439,32 @@ body {
 .equipment-box-item-one {
   grid-row: 1/-1;
 }
+
+.promo-inner {
+  margin-bottom: 100px;
+  min-height: 500px;
+  background-image: url('../images/promo-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.promo-btn {
+  width: 50px;
+  height: 50px;
+  background-image: url('../images/icon-promo-btn.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-weight: 700;
+  font-size: 16px;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+  position: absolute;
+  bottom: 80px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
