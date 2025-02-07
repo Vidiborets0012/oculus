@@ -612,3 +612,34 @@ body {
   gap: 20px;
   justify-self: end;
 }
+
+@media screen and (max-width: 768px) {
+  .top-title {
+    font-size: 66px;
+  }
+
+  .top-subtitle {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .buy-btn {
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  .top {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .top-title {
+    font-size: 48px;
+  }
+
+  .top-subtitle {
+    font-size: 20px;
+  }
+}
