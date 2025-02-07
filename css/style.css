@@ -630,6 +630,11 @@ body {
   .features-titles {
     margin-bottom: 20px;
   }
+
+  .games-inner {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -679,6 +684,17 @@ body {
   .video {
     width: auto;
     height: 250px;
+  }
+
+  .tabs-content-item-active {
+    position: relative;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .games-inner {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 25px;
   }
 }
 
