@@ -71,6 +71,8 @@ body {
   font-size: 16px;
   line-height: 1.4;
   color: #5c5c5e;
+  min-width: 320px;
+  overflow-x: hidden;
 }
 
 .section-title {
@@ -92,6 +94,20 @@ body {
   height: 80px;
 }
 
+.menu-btn {
+  width: 40px;
+  height: 30px;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.menu-btn span {
+  height: 2px;
+  width: 100%;
+  background-color: #070707;
+}
+
 .menu-list {
   display: flex;
   gap: 0 20px;
@@ -103,6 +119,7 @@ body {
 
 .logo {
   justify-self: center;
+  display: flex;
 }
 
 .basket {
@@ -710,6 +727,35 @@ body {
   .contacts-box {
     margin-bottom: 15px;
   }
+
+  .menu-btn {
+    display: flex;
+  }
+
+  .menu-list {
+    transform: translateX(-200%);
+    transition: transform 1s;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    right: 0;
+    width: 320px;
+    background-color: #070707;
+    color: #fff;
+    padding: 100px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .menu-list.menu-list-active {
+    transform: translateX(0);
+  }
+
+  .menu-link {
+    font-size: 24px;
+    padding: 10px 0;
+    display: inline-block;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -776,6 +822,10 @@ body {
     grid-template-columns: repeat(1, 1fr);
     gap: 25px;
   }
+
+  .nav {
+    grid-template-columns: 1fr 2fr 1fr;
+  }
 }
 
 @media screen and (max-width: 440px) {
@@ -795,5 +845,9 @@ body {
 
   .features-text {
     font-size: 30px;
+  }
+
+  .menu-list {
+    width: 100%;
   }
 }

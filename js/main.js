@@ -23,3 +23,10 @@ function open(evt) {
 
     document.querySelector(`#${button}`).classList.add('tabs-content-item-active');
 }
+
+const menuBtn = document.querySelector('.menu-btn');
+const menu = document.querySelector('.menu-list');
+
+menuBtn.addEventListener('click', () => {
+    menu.classList.toggle('menu-list-active');
+});
