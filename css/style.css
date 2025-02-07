@@ -485,6 +485,7 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-transform: uppercase;
+  margin-bottom: 10px;
 }
 
 .accessories-items {
@@ -495,7 +496,7 @@ body {
 .accessories-item {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 20px 20px 18px;
   border: 1px solid;
   border-image: linear-gradient(180deg, #bc10d8 0%, rgba(80, 0, 250, 0.93) 100%) 1;
@@ -661,6 +662,11 @@ body {
     grid-template-columns: repeat(2, 1fr);
     gap: 25px;
   }
+
+  .accessories-items {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
 }
 
 @media screen and (max-width: 872px) {
@@ -752,6 +758,11 @@ body {
 
 @media screen and (max-width: 568px) {
   .games-inner {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 25px;
+  }
+
+  .accessories-items {
     grid-template-columns: repeat(1, 1fr);
     gap: 25px;
   }
